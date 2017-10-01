@@ -152,6 +152,7 @@ aside
 {	
 	flex:1.8;
 	/*border: 3px blue solid;*/
+	position:relative;
 	text-align: center;
 	background-color: #ADB2B3;
 	border-radius: 10px;
@@ -169,6 +170,12 @@ aside img
    margin-left:10px;
 }
 
+#fleche_bulle
+{
+	position: absolute;
+    top: 100px;
+    left: -21px;
+}
 
 #photo_zozor
 {
@@ -188,8 +195,8 @@ footer
 	display:flex;
 	justify-content: space-around;
 	flex-direction: row;
-	margin-top: 10px;
-	background:url("images/separateur.png") repeat-x top;
+	padding-top: 20px;
+	background:url("images/separateur.png") repeat-x top, url("images/ico_top.png") no-repeat top center;
 	/*border: 3px black solid;*/
 }
 
@@ -230,17 +237,27 @@ footer ul
 
 #footer_middle
 {
-	flex:2;
+	flex:1.5;
 	
 	/*border: 3px blue solid;*/
+}
+
+#footer_right
+{
+	flex:1.5;
 }
 
 #friends_list 
 {
 	display: flex;
 	justify-content: space-between;
-	flex:1;
+	
 	/*border: 3px red solid;*/
+}
+
+#friends_list ul
+{
+	list-style-image: url('images/ico_liensexterne.png');
 }
 
 
