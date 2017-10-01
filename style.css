@@ -51,6 +51,7 @@ p
 header
 {
 	display: flex;
+	flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
     /*border: 3px green solid;*/
@@ -67,36 +68,23 @@ header h2
 { 
 	/*border: 3px green solid;*/
 	font-family: "dayrom_regular", Arial, Verdana, sans-serif;
+	
 }
 
-#header_title_logo
+#main_title
 {
-
 	display: flex;
 	flex-direction: column;
-	/*border: 3px blue solid;*/
-}
-
-#header_title_logo
-{
-	/*border: 3px black solid;*/
-	display: flex;
-	flex-direction: row;
-	align-items: baseline;
 }
 
 /* Menu de navigation ----------------------------------------------*/
-
-header nav
-{
-	/*border: 3px black solid;*/
-	display: flex; 
-}
 
 header nav ul
 {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
 }
 
 header nav a
@@ -143,11 +131,21 @@ section
 	margin-top: 20px;
 }
 
+section h1
+{
+	font-size: 1.3em
+}
+
 article
 {
 	flex:3;
 	/*border: 3px green solid;*/
 	margin-right: 20px;	
+}
+
+article p 
+{
+	font-size: 0.9em;
 }
 
 aside
@@ -164,6 +162,7 @@ aside p
 {
 	margin-left: 10px;
 	margin-right: 10px;
+	color:#FFFFFF;
 }
 aside img
 {
@@ -184,7 +183,6 @@ aside img
 /*------------------------------------------------------------------*/
 
 /* footer ----------------------------------------------------------*/
-
 footer 
 {
 	display:flex;
@@ -195,9 +193,33 @@ footer
 	/*border: 3px black solid;*/
 }
 
-footer p, footer h2
+footer p
 {
 	text-align: center;
+}
+
+footer h1
+{
+	text-align: center;
+	font-size: 1em;
+}
+
+footer li a
+{
+	font-size: 1em;
+	color:#181818;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+footer li a:hover 
+{
+	color:#760001;
+}
+
+footer ul
+{
+	margin-right: 5px;
 }
 
 #footer_left
@@ -212,8 +234,11 @@ footer p, footer h2
 	
 	/*border: 3px blue solid;*/
 }
-#footer_right 
+
+#friends_list 
 {
+	display: flex;
+	justify-content: space-between;
 	flex:1;
 	/*border: 3px red solid;*/
 }
