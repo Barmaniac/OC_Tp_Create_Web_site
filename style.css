@@ -1,0 +1,7 @@
+/* indexpage ou body */
+body
+{
+	width:70%;
+	margin: auto;
+	background: url("images/fond_jaune.png") fixed repeat;
+}
