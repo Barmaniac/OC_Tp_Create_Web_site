@@ -185,9 +185,38 @@ aside img
 
 /* footer ----------------------------------------------------------*/
 
+footer 
+{
+	display:flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-top: 10px;
+	background:url("images/separateur.png") repeat-x top;
+	/*border: 3px black solid;*/
+}
 
+footer p, footer h2
+{
+	text-align: center;
+}
 
+#footer_left
+{
+	/*border: 3px green solid;*/
+	flex:1;
+}
 
+#footer_middle
+{
+	flex:2;
+	
+	/*border: 3px blue solid;*/
+}
+#footer_right 
+{
+	flex:1;
+	/*border: 3px red solid;*/
+}
 
 
 
