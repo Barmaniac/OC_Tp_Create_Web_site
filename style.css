@@ -69,11 +69,11 @@ header h2
 	font-family: "dayrom_regular", Arial, Verdana, sans-serif;
 }
 
-#header_title
+#header_title_logo
 {
+
 	display: flex;
 	flex-direction: column;
-
 	/*border: 3px blue solid;*/
 }
 
@@ -130,5 +130,72 @@ header nav li
 	border-radius: 10px;
 	box-shadow: 6px 6px 6px black;	
 }
+/*------------------------------------------------------------------*/
+
+/* Coprs ----------------------------------------------------------*/
+section
+{
+	/*border: 3px black solid;*/
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 20px;
+}
+
+article
+{
+	flex:3;
+	/*border: 3px green solid;*/
+	margin-right: 20px;	
+}
+
+aside
+{	
+	flex:1.8;
+	/*border: 3px blue solid;*/
+	text-align: center;
+	background-color: #ADB2B3;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;	
+}
+
+aside p 
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+aside img
+{
+   margin-left:10px;
+}
+
+
+#photo_zozor
+{
+	text-align: center;
+}
+
+.ico_voyage
+{
+    vertical-align: middle;
+    margin-right: 8px;    	
+}
+/*------------------------------------------------------------------*/
+
+/* footer ----------------------------------------------------------*/
+
+
+
+
+
+
+
 
 /*------------------------------------------------------------------*/
+
+
+
+
+
+
